@@ -46,10 +46,12 @@ int main()
 	}
 	else if(d1<d2)
 	{
-		printf("%d",np);
+		printf("%d
+",np);
 	}
 	else
 	{
-	    printf("%d",ap);
+	printf("%d
+",ap);
     }
 } 
