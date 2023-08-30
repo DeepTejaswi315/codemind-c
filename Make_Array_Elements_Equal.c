@@ -1,17 +1,17 @@
 #include <stdio.h>
-int main() 
+int main()
 {
-    int n ;
+    int n;
     scanf("%d",&n);
     int a[n];
     for(int i=0;i<n;i++)
     {
-        scanf ("%d",&a[i]);
+        scanf("%d",&a[i]);
     }
     int t=a[0],c=1;
     for(int i=1;i<n;i++)
     {
-        if(a[i]==t) 
+        if(a[i]==t)
         {
             c++;
         }
@@ -28,12 +28,12 @@ int main()
             d=0;
             for(int j=0;j<n;j++)
             {
-                if(a[i]==a[ j ]) 
+                if(a[i]==a[j])
                 {
                     d++;
                 }
             }
-            if (d>p)
+            if(d>p)
             {
                p=d;
             }
